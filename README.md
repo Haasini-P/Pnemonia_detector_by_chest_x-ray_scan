@@ -4,17 +4,17 @@ This project presents a deep learning solution for **automated pneumonia detecti
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🧠 **CNN-based model** trained on chest X-ray images
-- 📸 Upload and predict from X-ray scans in real-time
-- 📊 Visualization of model confidence
-- ⚙️ Built with **Python**, **TensorFlow/Keras**, and **Streamlit**
-- 🧪 Tested on standard Pneumonia datasets
+-  **CNN-based model** trained on chest X-ray images
+-  Upload and predict from X-ray scans in real-time
+-  Visualization of model confidence
+-  Built with **Python**, **TensorFlow/Keras**, and **Streamlit**
+-  Tested on standard Pneumonia datasets
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer      | Tools Used             |
 |------------|------------------------|
@@ -25,7 +25,7 @@ This project presents a deep learning solution for **automated pneumonia detecti
 
 ---
 
-## 🧰 Installation
+##  Installation
 
 ```bash
 # 1. Clone the repository
@@ -45,7 +45,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 CNN Model Architecture
+##  CNN Model Architecture
 
 - Input Layer: 150x150 grayscale images
 - 3 Convolutional layers + MaxPooling
@@ -55,16 +55,17 @@ streamlit run app.py
 
 ---
 
-## 🖼️ Sample Prediction UI
+##  Sample Prediction UI
 
 The Streamlit UI allows you to:
 - Upload an X-ray image
 - View model's prediction with confidence
 - Get real-time feedback instantly
+- Also suggests the precautions and prescribed medication but prefer to refer a doctor as well.
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 We used:
 - **Chest X-Ray Images (Pneumonia)** dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
@@ -72,13 +73,13 @@ We used:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This model is a **proof-of-concept** and **should not** be used for real medical diagnosis. Consult medical professionals for any health concerns.
 
 ---
 
-## 👩‍💻 Contributors
+##  Contributors
 
 - P.Haasini
 - Rohith
@@ -88,7 +89,7 @@ This model is a **proof-of-concept** and **should not** be used for real medical
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
